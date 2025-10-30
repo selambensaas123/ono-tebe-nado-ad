@@ -29,9 +29,10 @@
   text-transform: lowercase;
 }
 
-.header__link_active {
-  text-decoration: none;
+.footer__menu-link_active {
+  text-decoration: underline;
 }
+
 
 .header__logo {
   justify-self: center;
@@ -198,7 +199,7 @@
   font-family: "Inter", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 
 .about {
@@ -275,7 +276,7 @@
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer__social-list {
